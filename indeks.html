@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamani Scarf - Premium Hijab & Scarf</title>
+    <!-- Memanggil library Font Awesome untuk menampilkan logo ikon sosmed -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- MENGHUBUNGKAN KE FILE CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Zamani Scarf</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#katalog">Katalog</a>
+            <a href="#kontak">Hubungi Kami</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Sempurnakan Anggunmu bersama Zamani Scarf</h1>
+        <p>Menghadirkan koleksi hijab premium dengan sentuhan bahan lembut, adem, dan pilihan warna elegan untuk melengkapi setiap cerita harimu.</p>
+        <a href="#katalog" class="cta-btn">Lihat Koleksi</a>
+    </section>
+
+    <section class="products-container" id="katalog">
+        <h2>Koleksi Terbaik Zamani Scarf</h2>
+        
+        <div class="grid">
+            <!-- Produk 1 -->
+            <div class="card">
+                <img src="phasmina slik.jpeg" alt="Pashmina Silk Premium">
+                <div class="card-info">
+                    <h3>Pashmina Silk Premium</h3>
+                    <p class="price">Rp 65.000</p>
+                    
+                    <label class="color-select-label">Pilih Warna:</label>
+                    <select class="color-select" id="warna-pashmina-silk">
+                        <option value="Milo">Milo / Cokelat Susu</option>
+                        <option value="Rosegold">Rose Gold</option>
+                        <option value="Black">Hitam Jetblack</option>
+                        <option value="Sage">Sage Green</option>
+                    </select>
+                    
+                    <div class="social-icons-group">
+                        <button onclick="beliWA('Pashmina Silk Premium', 'warna-pashmina-silk')" class="icon-btn bg-wa" title="Order via WhatsApp"><i class="fab fa-whatsapp"></i></button>
+                        <a href="https://shopee.co.id/zamani_scarf" class="icon-btn bg-shopee" target="_blank" title="Beli di Shopee"><i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="https://instagram.com/zamaniscarf.id" class="icon-btn bg-ig" target="_blank" title="Lihat di Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@zamani_scarf" class="icon-btn bg-tiktok" target="_blank" title="Lihat di TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="card">
+                <img src="Segi Empat.jpeg" alt="Segiempat Paris Voal">
+                <div class="card-info">
+                    <h3>Segiempat Paris Voal</h3>
+                    <p class="price">Rp 45.000</p>
+                    
+                    <label class="color-select-label">Pilih Warna:</label>
+                    <select class="color-select" id="warna-paris-voal">
+                        <option value="Denim">Denim Blue</option>
+                        <option value="Taupe">Taupe</option>
+                        <option value="Beige">Soft Beige</option>
+                        <option value="Maroon">Deep Maroon</option>
+                    </select>
+                    
+                    <div class="social-icons-group">
+                        <button onclick="beliWA('Segiempat Paris Voal', 'warna-paris-voal')" class="icon-btn bg-wa" title="Order via WhatsApp"><i class="fab fa-whatsapp"></i></button>
+                        <a href="https://shopee.co.id/zamani_scarf" class="icon-btn bg-shopee" target="_blank" title="Beli di Shopee"><i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="https://instagram.com/zamaniscarf.id" class="icon-btn bg-ig" target="_blank" title="Lihat di Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@zamani_scarf" class="icon-btn bg-tiktok" target="_blank" title="Lihat di TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="card">
+                <img src="hijab instan.jpeg" alt="Hijab Instan Jersey">
+                <div class="card-info">
+                    <h3>Hijab Instan Jersey</h3>
+                    <p class="price">Rp 35.000</p>
+                    
+                    <label class="color-select-label">Pilih Warna:</label>
+                    <select class="color-select" id="warna-instan-jersey">
+                        <option value="Hitam">Hitam</option>
+                        <option value="Navy">Navy</option>
+                        <option value="Mocca">Mocca</option>
+                        <option value="Khaki">Khaki</option>
+                    </select>
+                    
+                    <div class="social-icons-group">
+                        <button onclick="beliWA('Hijab Instan Jersey', 'warna-instan-jersey')" class="icon-btn bg-wa" title="Order via WhatsApp"><i class="fab fa-whatsapp"></i></button>
+                        <a href="https://shopee.co.id/zamani_scarf" class="icon-btn bg-shopee" target="_blank" title="Beli di Shopee"><i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="https://instagram.com/zamaniscarf.id" class="icon-btn bg-ig" target="_blank" title="Lihat di Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@zamani_scarf" class="icon-btn bg-tiktok" target="_blank" title="Lihat di TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 4 -->
+            <div class="card">
+                <img src="viscose.jpeg" alt="Pashmina Viscode Full">
+                <div class="card-info">
+                    <h3>Pashmina Viscode Full</h3>
+                    <p class="price">Rp 50.000</p>
+                    
+                    <label class="color-select-label">Pilih Warna:</label>
+                    <select class="color-select" id="warna-plisket">
+                        <option value="Terracotta">Terracotta</option>
+                        <option value="Dusty Pink">Dusty Pink</option>
+                        <option value="Olive">Olive Green</option>
+                        <option value="Almond">Almond</option>
+                    </select>
+                    
+                    <div class="social-icons-group">
+                        <button onclick="beliWA('Pashmina Viscode Full', 'warna-plisket')" class="icon-btn bg-wa" title="Order via WhatsApp"><i class="fab fa-whatsapp"></i></button>
+                        <a href="https://shopee.co.id/zamani_scarf" class="icon-btn bg-shopee" target="_blank" title="Beli di Shopee"><i class="fa-solid fa-bag-shopping"></i></a>
+                        <a href="https://instagram.com/zamaniscarf.id" class="icon-btn bg-ig" target="_blank" title="Lihat di Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@zamani_scarf" class="icon-btn bg-tiktok" target="_blank" title="Lihat di TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontak">
+        <p>&copy; 2026 <strong>Zamani Scarf</strong> - Premium Hijab & Scarf. All Rights Reserved.</p>
+        
+        <div class="footer-icons">
+            <a href="https://wa.me/6281244835127" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://shopee.co.id/zamani_scarf" target="_blank" title="Shopee"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="https://instagram.com/zamaniscarf.id" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/@zamani_scarf" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <div class="payment-section">
+            <div class="payment-title">Menerima Pembayaran via</div>
+            <div class="payment-badges">
+                <span class="pay-badge qris">QRIS</span>
+                <span class="pay-badge">DANA</span>
+                <span class="pay-badge">OVO</span>
+                <span class="pay-badge">LinkAja</span>
+                <span class="pay-badge">Virtual Account Bank</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MENGHUBUNGKAN KE FILE JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
